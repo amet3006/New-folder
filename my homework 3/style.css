@@ -1,0 +1,48 @@
+* {
+  box-sizing: content-box;
+}
+.hdr {
+  top: 0%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  padding: 20px;
+}
+.column {
+  float: right;
+  width: 25.5%;
+  padding: 20px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ftr {
+  padding: 45px;
+  text-align: center;
+  background: rgb(177, 169, 169);
+  margin-top: 18%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}

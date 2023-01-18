@@ -1,0 +1,6 @@
+#sidebar {
+    width: 200px;
+    background-color:tomato;
+    position: fixed;
+    height: 100%;
+}
