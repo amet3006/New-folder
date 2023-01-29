@@ -1,6 +1,33 @@
-#sidebar {
-    width: 200px;
-    background-color:tomato;
-    position: fixed;
-    height: 100%;
+* {
+    background-color: black;
+}
+img {
+
+    background-position: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-style: serif;
+    text-align: auto; color: antiquewhite;
+    float: left;
+    position:absolute;
+    top: 80px;
+    background-color: transparent;
+}
+
+h1 {
+    background-color: transparent;
+    position: absolute;
+    top: 20px; left: 35%;
+    color: white;
+    font-family: serif;
+}
+
+h3{
+    text-align: center;
+    color: aquamarine;
+    background-color:transparent ;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
