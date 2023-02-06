@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.item1{
+    position: center;
+    float: right;
+    right: 1em;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    background: rgb(88, 93, 118);
+    padding: 45px 0;
+    color: #fff;
+    }
+    
+    .item4{
+        text-align: center;
+        background: #333;
+        padding: 40px 0;
+        color: #fff;
+        
+        width: 100vw;
+        position:fixed;
+        bottom: 0;
+    }
+    
+    .sidenav {
+        margin-top: 6.7rem;
+        position:absolute;
+        height: 250%;
+        width: 160px;
+        z-index: 1;
+        left: 2;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 660px 45px 55px;
+        
+    }
+    
+    .sidenav a {
+        margin-top: 1em;
+        padding: 6px 8px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+    
+    }
+    
+    .sidenav a :hover {
+        color: #f1f1f1;
+    }
+    
+    @media screen and (max-height: 450px) {
+        .sidebar {padding-top: 15px;}
+        .sidebar a {font-size: 18px;}
+      }
+    
+      .main {
+       
+        margin-left: 260px; /* Same as the width of the sidenav */
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+      }
+    
+    .img {
+    height: 350px;
+    margin-top: 5em;
+    }

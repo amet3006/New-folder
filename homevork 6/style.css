@@ -42,6 +42,7 @@
   
   .content1 {
     padding: 20px;
+    overflow:scroll;
   }
   
   .hover-box2 {
