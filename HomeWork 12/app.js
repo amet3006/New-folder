@@ -23,11 +23,11 @@ console.log(nums1.length);
 
 // HomeWork 3//12
 let nums = [5,6,7,3,3,4,6,7];    // With Loop 
-
+let num = 0;
 for(let i = 0; i < nums.length; i++){
-    console.log(nums.length);
+    num++;
 }
-
+ console.log(num);
 
 
 
