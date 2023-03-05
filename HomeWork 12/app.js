@@ -27,7 +27,7 @@ let num = 0;
 for(let i = 0; i < nums.length; i++){
     num++;
 }
- console.log(num);
+ console.log(num); 
 
 
 
